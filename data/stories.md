@@ -35,8 +35,25 @@
    - ticket_form
    - form{"name": "ticket_form"}
    - form{"name": null}
+* goodbye
+  - utter_goodbye
 
-## request_ticket
-* request_ticket
-  - utter_wait
+## ticket path2
+* request_ticket{"date_time":"明天","end":"成都"}
+   - ticket_form
+   - form{"name": "ticket_form"}
+   - form{"name": null}
+* goodbye
+  - utter_goodbye
   
+## ticket unknow interrupt
+* request_ticket{"date_time":"周四","end":"深圳"}
+   - ticket_form
+   - form{"name": "ticket_form"}
+## bot challenge
+* bot_challenge
+  - utter_iamabot
+  - ticket_form
+  - form{"name": null}
+* goodbye
+  - utter_goodbye
