@@ -8,6 +8,7 @@ intents:
   - bot_challenge
   - request_ticket
   - inform
+  - inform_single
 
 slots:
   date_time:
