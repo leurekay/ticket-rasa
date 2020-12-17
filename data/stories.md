@@ -50,6 +50,26 @@
 * request_ticket{"date_time":"周四","end":"深圳"}
    - ticket_form
    - form{"name": "ticket_form"}
+* bot_challenge
+   - utter_iamabot 
+   - ticket_form
+* complain
+   - utter_complain
+   - ticket_form
+   - form{"name": null}
+
+## ticket unknow interrupt2
+* request_ticket
+   - ticket_form
+   - form{"name": "ticket_form"}
+* inform
+   - ticket_form 
+* complain
+   - utter_complain
+   - ticket_form
+   - form{"name": null}
+   
+   
 ## bot challenge
 * bot_challenge
   - utter_iamabot

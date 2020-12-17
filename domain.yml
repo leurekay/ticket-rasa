@@ -6,6 +6,7 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - complain
   - request_ticket
   - inform
   - inform_single
@@ -36,6 +37,7 @@ actions:
   - utter_happy
   - utter_goodbye
   - utter_iamabot
+  - utter_complain
   - utter_wait
   - utter_ask_date_time
   - utter_ask_start
@@ -59,8 +61,11 @@ responses:
   - text: "Bye"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
-  
+  - text: "我是一个会查询火车票的机器人"
+ 
+  utter_complain:
+  - text: "注意文明用语，我还是个孩子"
+ 
   utter_wait:
   - text: "正在为您查询，请稍等."
 
