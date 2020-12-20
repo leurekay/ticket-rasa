@@ -10,6 +10,7 @@ intents:
   - request_ticket
   - inform
   - inform_single
+  - faq
 
 slots:
   date_time:
@@ -42,6 +43,7 @@ actions:
   - utter_ask_date_time
   - utter_ask_start
   - utter_ask_end
+  - respond_faq
 
 responses:
   utter_greet:

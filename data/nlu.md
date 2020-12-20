@@ -1,4 +1,4 @@
-## intent:greet
+## intent:faq/greet
 - 你好
 - 你好啊
 - 早上好
@@ -16,7 +16,7 @@
 - hello hello
 - 喂喂
 
-## intent:goodbye
+## intent:faq/goodbye
 - goodbye
 - bye
 - bye bye
@@ -77,7 +77,7 @@
 - 拒绝
 - 不行
 
-## intent:mood_great
+## intent:faq/mood_great
 - perfect
 - 完美
 - 棒极了
@@ -85,20 +85,20 @@
 - 你太棒了
 - good
 
-## intent:mood_unhappy
+## intent:faq/mood_unhappy
 - 伤心难过
 - 不开心
 - 不高兴
 - 糟糕了
 
-## intent:bot_challenge
+## intent:faq/bot_challenge
 - 你是机器人吗？
 - 你是智障吗?
 - 你是傻逼吗?
 - 我在和机器人对话吗?
 - 你是谁?
 
-## intent:complain
+## intent:faq/complain
 - 妈，你逼
 - 去，去你妈
 - 白痴
